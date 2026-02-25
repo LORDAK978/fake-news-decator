@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fake News & Video Detector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">Fake News Detector</div>
+  <div class="account">👤</div>
+</div>
+
+<div class="mainLayout">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h3>History</h3>
+    <div id="historyList"></div>
+  </div>
+
+  <!-- Chat Area -->
+  <div class="chatArea">
+
+    <div id="messages" class="messages"></div>
+
+    <!-- News input -->
+    <div class="inputBox">
+      <input id="newsInput" placeholder="Paste news text or video link..." />
+      <button onclick="detectFakeNews()">Check</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>

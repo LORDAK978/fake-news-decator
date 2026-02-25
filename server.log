@@ -1,0 +1,63 @@
+incoming POST /api/check-news
+error in /api/check-news: {"status":404,"statusText":"Not Found"}
+HTTP error 404 Not Found
+incoming POST /api/check-news
+using model text-bison-001
+error in /api/check-news: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/text-bison-001:generateContent: [404 Not Found] models/text-bison-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+HTTP error 404 Not Found
+incoming POST /api/check-news
+using model text-bison-001 (apiVersion=v1)
+error in /api/check-news: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/text-bison-001:generateContent: [404 Not Found] models/text-bison-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+HTTP error 404 Not Found
+incoming POST /api/check-news
+using model text-bison-001 (apiVersion=v1)
+error in /api/check-news: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/text-bison-001:generateContent: [404 Not Found] models/text-bison-001 is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+HTTP error 404 Not Found
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming GET /
+incoming GET /
+incoming GET /styles.css
+incoming GET /script.js
+incoming GET /favicon.ico
+incoming GET /script.js
+incoming GET /style.css
+incoming GET /
+incoming GET /styles.css
+incoming GET /script.js
+incoming GET /
+incoming GET /styles.css
+incoming GET /script.js
+incoming GET /
+incoming GET /styles.css
+incoming GET /script.js
+incoming GET /
+incoming GET /style.css
+incoming GET /script.js
+incoming GET /
+incoming GET /style.css
+incoming GET /script.js
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming GET /style.css
+incoming GET /.well-known/appspecific/com.chrome.devtools.json
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming POST /api/check-news
+using model gemini-2.5-flash
+incoming GET /
+incoming GET /style.css
+incoming GET /script.js
+incoming GET /favicon.ico
