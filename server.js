@@ -108,4 +108,5 @@ app.post("/api/check-news", async (req,res)=>{
 
 });
 
-app.listen(8080, ()=> console.log("Server running on 8080"));
+
+app.listen(process.env.PORT, ()=> console.log("Server running on 8080"));
