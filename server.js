@@ -10,7 +10,7 @@ function log(msg) {
 // load environment variables; we keep the key in `API.env` for now.
 // you might rename this to `.env` later but the important part is that
 // `dotenv` reads whatever file contains GEMINI_API_KEY.
-require("dotenv").config();
+//require("dotenv").config();
 
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
@@ -107,5 +107,6 @@ app.post("/api/check-news", async (req,res)=>{
     }
 
 });
+
 
 app.listen(8080, ()=> console.log("Server running on 8080"));
